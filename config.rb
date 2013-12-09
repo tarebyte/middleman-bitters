@@ -26,7 +26,7 @@ ignore '/calendar.html'
 # Blog settings.
 ######################################################################
 
-Time.zone = "Amsterdam"
+Time.zone = "Eastern Time (US & Canada)"
 
 activate :blog do |blog|
   blog.prefix = 'blog'
