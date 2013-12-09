@@ -30,7 +30,7 @@ Install [Middleman]:
 
 Clone Neato:
 
-    git clone git@github.com:shkm/middleman-neato.git my-project
+    git clone git@github.com:tarebyte/middleman-bitters.git my-project
 
 Install gems and get to work!
 
@@ -43,18 +43,22 @@ Install gems and get to work!
 
 If you find yourself using Neato often, you can install it as a middleman template:
 
-    git clone git@github.com:shkm/middleman-neato.git ~/.middleman/neato
+    git clone git@github.com:tarebyte/middleman-bitters.git ~/.middleman/bitters
 
 Now you can simply init new projects with the Neato template:
 
-    middleman init -T=neato my-project
+    middleman init my-project --template=bitters
 
-Just don't forget to update `~/.middleman/neato` every now and then.
+Just don't forget to update `~/.middleman/bitters` every now and then.
 
 
 ## Copyright and licence
 
-Copyright 2013 Jamie Schembri, under the [MIT licence](LICENSE).
+Copyright 2013 Mark Tareshawty, under the [MIT licence](LICENSE).
 
   [middleman]: http://middlemanapp.com/
 
+## Thank You
+
+To [Jamie Schembri](https://github.com/shkm) for [middleman-neato](https://github.com/shkm/middleman-neato) from
+which this project is based off of.
